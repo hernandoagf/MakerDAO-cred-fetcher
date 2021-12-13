@@ -1,0 +1,34 @@
+{
+  "name": "makerdao-cred-fetcher",
+  "version": "1.0.0",
+  "description": "A script to fetch and store cred data periodically",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "dev": "ts-node-dev --watch --respawn --transpile-only src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernandoagf/MakerDAO-cred-fetcher.git"
+  },
+  "keywords": [
+    "MakerDAO",
+    "Sourcecred"
+  ],
+  "author": "hernandoagf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hernandoagf/MakerDAO-cred-fetcher/issues"
+  },
+  "homepage": "https://github.com/hernandoagf/MakerDAO-cred-fetcher#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "dotenv": "^10.0.0",
+    "eslint": "^8.4.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.3"
+  }
+}
